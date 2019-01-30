@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cv_history"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="6dp"
+        app:cardElevation="6dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="1dp"
+        >
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+        >
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/challenge_vote"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="7dp"
+            />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/titleChallenge"
+                    android:layout_toRightOf="@+id/challenge_vote"
+                    android:layout_alignParentTop="true"
+                    android:textSize="24sp"
+            />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date_challenge"
+                    android:layout_toRightOf="@+id/challenge_vote"
+                    android:layout_below="@+id/titleChallenge"
+                    android:layout_marginLeft="4dp"
+            />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
