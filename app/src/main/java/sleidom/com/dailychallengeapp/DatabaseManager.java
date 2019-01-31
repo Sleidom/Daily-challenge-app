@@ -46,7 +46,7 @@ public class DatabaseManager extends SQLiteOpenHelper {
     public Challenge getDailyChallenge() {
         Challenge challenge = getHistoryDailyChallenge();
         if (challenge != null) return challenge;
-        int randInd = new Random().nextInt(2);
+        int randInd = new Random().nextInt(11);
         String str = "challenge_" + randInd;
         int resId = context.getResources().getIdentifier(str, "string", context.getPackageName());
 
