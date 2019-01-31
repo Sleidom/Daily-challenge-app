@@ -2,11 +2,27 @@
     <string name="app_name">Daily Challenge App</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_history_rv">HistoryActivityRV</string>
-    <string name="challenge_0">Tiempo de cocinar!;Si no sabes cocinar, es un buen momento para empezar. Intenta aprender
-        algún plato básico y sorprende a tu familia. Si ya eres un experto, aprende una nueva receta!</string>
-    <string name="challenge_1">Ducha fria!;Una ducha fría todos los días te ayudará a levantar tu humor, curar el estrés y ayudar a tus defensas.
-        Además es muy bueno para el sistema inmunológico y dejará tu piel hermosa. .</string>
     <string name="title_activity_challenge_history">ChallengeHistoryActivity</string>
     <string name="accomplished_text">Lo conseguiste en:</string>
     <string name="title_history">Historial de retos</string>
+    <string name="challenge_0">Tiempo de cocinar!;Si no sabes cocinar, es un buen momento para empezar. Intenta aprender
+        algún plato básico y sorprende a tu familia. Si ya eres un experto, aprende una nueva receta!</string>
+    <string name="challenge_1">Ducha fría!;Una ducha fría todos los días te ayudará a levantar tu humor, curar el estrés y ayudar a tus defensas.
+        Además es muy bueno para el sistema inmunológico y dejará tu piel hermosa.</string>
+    <string name="challenge_2">Pasea durante una hora;Siempre es un buen momento para empezar a hacer ejercicio físico.
+        Caminar durante una hora es muy saludable y te relajará. Además, es un buen momento para pensar en ti mismo.</string>
+    <string name="challenge_3">Nuevo libro;Si actualmente no estas leyendo ningún libro, es un buen momento para empezar.
+        Date una vuelta por tu librería mas cercana y elige el que mas te guste. Si por el contrario ya estas leyendo, continua así, estas en el buen camino!</string>
+    <string name="challenge_4">Desconectado;Intenta pasar un día (o al menos unas horas) sin utilizar las redes sociales a las que tan enganchados estamos. ¿Podrás conseguirlo?</string>
+    <string name="challenge_5">Un día sin TV;Pasar el día sin ver la televisión te ayudará a hacer tareas pendientes y pasar menos tiempo sin hacer nada.</string>
+    <string name="challenge_6">Viaja solo;Sal de tu zona de confort y atrévete a viajar solo, sin compañía de nadie.
+        Descubrirás muchas cosas sobre ti y aprenderás a sobrevivir por ti mismo sin la ayuda de nadie.</string>
+    <string name="challenge_7">Metas de vida;Empieza una lista con objetivos tanto a corto, medio y largo plazo.
+        El objetivo no es ponerte presión, si no proponerte nuevas metas y alcanzarlas poco a poco.</string>
+    <string name="challenge_8">Ve al cine;Hace cuanto tiempo que no te pasas por el cine?
+        Mira la cartelera y decide que película vas a ver hoy. No te olvides de las palomitas, y por supuesto, de una buena compañía :)!</string>
+    <string name="challenge_9">Hornea un pastel;Normalmente sueles comer pasteles en ocasiones especiales, sin embargo,
+        en esta ocasión, te proponemos que hornees un pastel y te comas un trozo, por el simple placer de comer pastel! </string>
+    <string name="challenge_10">Escribe una carta;Hoy en día escribir una carta es algo muy raro, por ello, te proponemos escribir una carta a alguien querido.
+        Si, debe ser una carta, no puede ser un e-mail!</string>
 </resources>

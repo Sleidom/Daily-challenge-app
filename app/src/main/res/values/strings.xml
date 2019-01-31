@@ -2,11 +2,27 @@
     <string name="app_name">Daily Challenge App</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_history_rv">HistoryActivityRV</string>
+    <string name="title_activity_challenge_history">ChallengeHistoryActivity</string>
+    <string name="accomplished_text">You accomplished this in:</string>
+    <string name="title_history">Challenge history</string>
     <string name="challenge_0">Cooking time!;If you do not know how to cook, it\'s a good time to start. Try to learn
         a basic dish and surprise your family. If you are already an expert, learn a new recipe!</string>
     <string name="challenge_1">"Cold shower!;A cold shower every day will help you lift your mood, heal stress and help your defenses.
         It is also very good for the immune system and will leave your skin beautiful."</string>
-    <string name="title_activity_challenge_history">ChallengeHistoryActivity</string>
-    <string name="accomplished_text">You accomplished this in:</string>
-    <string name="title_history">Challenge history</string>
+    <string name="challenge_2">Walk for an hour;It is always a good time to start exercising.
+        Walking for an hour is very healthy and will relax you. Also, it\'s a good time to think about yourself.</string>
+    <string name="challenge_3">New book;If you are not currently reading any books, it\'s a good time to start.
+        Take a tour of your nearest bookstore and choose the one you like the most. If on the contrary you are already reading, continue like this, you are on the right track!</string>
+    <string name="challenge_4">Disconnected;Try to spend a day (or at least a few hours) without using the social networks to which we are so attached. Can you do it?</string>
+    <string name="challenge_5">A day without TV;Spending the day without watching television will help you to do pending tasks and spend less time doing nothing.</string>
+    <string name="challenge_6">Travel alone;Leave your comfort zone and dare to travel alone, without company of anyone.
+        You will discover many things about yourself and learn to survive on your own without the help of anyone.</string>
+    <string name="challenge_7">Life goals;Start a list with objectives in the short, medium and long term.
+        The goal is not to put pressure on you, but to propose new goals and reach them little by little.</string>
+    <string name="challenge_8">Go to the movies;How long have you not been to the movies?
+        Look at the card and decide which movie you\'re going to watch today. Do not forget the popcorn, and of course, a good company :)!</string>
+    <string name="challenge_9">Bake a cake; Usually you usually eat cakes on special occasions, however,
+        this time, we suggest you bake a cake and eat a piece, for the simple pleasure of eating cake!</string>
+    <string name="challenge_10">Write a letter;Today writing a letter is something very rare, so, we suggest you write a letter to someone you love.
+        Yes, it must be a letter, it can not be an e-mail!</string>
 </resources>
