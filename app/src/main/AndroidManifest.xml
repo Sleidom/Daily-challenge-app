@@ -19,16 +19,22 @@
         <activity
             android:name=".HistoryActivityRV"
             android:label="@string/title_activity_history_rv"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".MainActivity">
-        </activity>
-        <receiver android:name=".notification.AlarmReceiver"/>
-        <receiver android:name=".notification.AlarmBootReceiver"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <receiver android:name=".notification.AlarmReceiver" />
+        <receiver
+            android:name=".notification.AlarmBootReceiver"
             android:enabled="false">
             <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"></action>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
+
+        <activity
+            android:name=".ChallengeHistoryActivity"
+            android:label="@string/title_activity_challenge_history"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -1,22 +1,15 @@
 package sleidom.com.dailychallengeapp;
 
 import android.app.Activity;
-import android.app.AlarmManager;
-import android.app.NotificationChannel;
-import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 import sleidom.com.dailychallengeapp.notification.NotificationHelper;
 
 import java.util.Calendar;
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 public class MainActivity extends Activity {
@@ -94,9 +87,6 @@ public class MainActivity extends Activity {
     }
 
     private void activateNotifications() {
-        System.out.println("Creando notificacion");
-        NotificationHelper.cancelAlarmElapsed();
-        NotificationHelper.disableBootReceiver(this);
         NotificationHelper.scheduleRepeatingElapsedNotification(this);
         NotificationHelper.enableBootReceiver(this);
     }

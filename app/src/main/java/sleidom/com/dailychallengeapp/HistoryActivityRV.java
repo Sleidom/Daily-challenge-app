@@ -23,7 +23,7 @@ public class HistoryActivityRV extends AppCompatActivity {
         LinearLayoutManager llm = new LinearLayoutManager(this);
         this.rv.setLayoutManager(llm);
 
-        RVAdapter adapter = new RVAdapter(this.controller.getHistory());
+        RVAdapter adapter = new RVAdapter(this.controller.getHistory(), this);
         rv.setAdapter(adapter);
     }
 

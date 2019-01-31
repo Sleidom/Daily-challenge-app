@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo3"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/title_challenge_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:text="Daily challenge"
+        android:textStyle="bold"
+        android:fontFamily="@font/robotobold"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="1dp"
+        />
+
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:src="@drawable/sep1"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/description_challenge_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/robotolight"
+        android:text="This is a test description for a challenge that would be needed to be accomplished, This is a test description for a challenge that would be needed to be accomplished, This is a test description for a challenge that would be needed to be accomplished"
+        android:gravity="center"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:src="@drawable/sep2"/>
+
+    <TextView
+        android:id="@+id/date_challenge_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_italic"
+        android:text="You accomplished this in: 2019-01-01"
+        android:gravity="center"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+</LinearLayout>

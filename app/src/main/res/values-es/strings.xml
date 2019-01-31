@@ -6,4 +6,7 @@
         algún plato básico y sorprende a tu familia. Si ya eres un experto, aprende una nueva receta!</string>
     <string name="challenge_1">Ducha fria!;Una ducha fría todos los días te ayudará a levantar tu humor, curar el estrés y ayudar a tus defensas.
         Además es muy bueno para el sistema inmunológico y dejará tu piel hermosa. .</string>
+    <string name="title_activity_challenge_history">ChallengeHistoryActivity</string>
+    <string name="accomplished_text">Lo conseguiste en:</string>
+    <string name="title_history">Historial de retos</string>
 </resources>

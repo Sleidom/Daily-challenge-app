@@ -6,4 +6,7 @@
         a basic dish and surprise your family. If you are already an expert, learn a new recipe!</string>
     <string name="challenge_1">"Cold shower!;A cold shower every day will help you lift your mood, heal stress and help your defenses.
         It is also very good for the immune system and will leave your skin beautiful."</string>
+    <string name="title_activity_challenge_history">ChallengeHistoryActivity</string>
+    <string name="accomplished_text">You accomplished this in:</string>
+    <string name="title_history">Challenge history</string>
 </resources>
