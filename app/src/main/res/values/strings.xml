@@ -5,6 +5,8 @@
     <string name="title_activity_challenge_history">ChallengeHistoryActivity</string>
     <string name="accomplished_text">You accomplished this in:</string>
     <string name="title_history">Challenge history</string>
+    <string name="notification_title">New challenge!</string>
+    <string name="notification_desc">There is a new daily challenge, go ahead!</string>
     <string name="challenge_0">Cooking time!;If you do not know how to cook, it\'s a good time to start. Try to learn
         a basic dish and surprise your family. If you are already an expert, learn a new recipe!</string>
     <string name="challenge_1">"Cold shower!;A cold shower every day will help you lift your mood, heal stress and help your defenses.

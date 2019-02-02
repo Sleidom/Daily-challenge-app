@@ -10,6 +10,7 @@ import android.os.Build;
 import android.support.v4.app.NotificationCompat;
 
 import sleidom.com.dailychallengeapp.MainActivity;
+import sleidom.com.dailychallengeapp.R;
 
 /**
  * AlarmReceiver handles the broadcast message and generates Notification
@@ -43,8 +44,8 @@ public class AlarmReceiver extends BroadcastReceiver {
         }
         NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context, "default")
                 .setSmallIcon(android.R.drawable.arrow_down_float) // notification icon
-                .setContentTitle("Daily challenge Notification") // title for notification
-                .setContentText("There is a new challenge! Try it!!")// message for notification
+                .setContentTitle(context.getString(R.string.notification_title)) // title for notification
+                .setContentText(context.getString(R.string.notification_desc))// message for notification
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true); // clear notification after click
 

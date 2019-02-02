@@ -5,6 +5,8 @@
     <string name="title_activity_challenge_history">ChallengeHistoryActivity</string>
     <string name="accomplished_text">Lo conseguiste en:</string>
     <string name="title_history">Historial de retos</string>
+    <string name="notification_title">Nuevo reto!</string>
+    <string name="notification_desc">Hay un nuevo reto diario, ¡adelante!</string>
     <string name="challenge_0">Tiempo de cocinar!;Si no sabes cocinar, es un buen momento para empezar. Intenta aprender
         algún plato básico y sorprende a tu familia. Si ya eres un experto, aprende una nueva receta!</string>
     <string name="challenge_1">Ducha fría!;Una ducha fría todos los días te ayudará a levantar tu humor, curar el estrés y ayudar a tus defensas.
