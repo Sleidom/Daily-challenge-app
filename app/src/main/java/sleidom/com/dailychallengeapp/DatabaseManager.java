@@ -18,7 +18,7 @@ import static sleidom.com.dailychallengeapp.ChallengeContract.SQL_DELETE_HISTORY
 
 public class DatabaseManager extends SQLiteOpenHelper {
 
-    private static final int DATABASE_VERSION = 2;
+    private static final int DATABASE_VERSION = 1;
     private static final String DATABASE_NAME = "ChallengesDB.db";
     private Context context;
 
@@ -46,7 +46,7 @@ public class DatabaseManager extends SQLiteOpenHelper {
     public Challenge getDailyChallenge() {
         Challenge challenge = getHistoryDailyChallenge();
         if (challenge != null) return challenge;
-        int randInd = new Random().nextInt(11);
+        int randInd = new Random().nextInt(20);
         String str = "challenge_" + randInd;
         int resId = context.getResources().getIdentifier(str, "string", context.getPackageName());
 
